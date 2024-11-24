@@ -1,37 +1,48 @@
-LinkedIn Visitor (LinVis)
-🚀 About this Project
-LinkedIn Visitor (LinVis) is a simple Python-based automation tool that uses Selenium to:
+## 🚀 About this Project
 
-Log into LinkedIn and search for profiles based on specified keywords, then visit profiles automatically up to a specified number of pages.
-It helps developers explore browser automation and Selenium scripting while adhering to ethical guidelines and LinkedIn's Terms of Service.
+**(Lin)kedIn (Vis)itor** is a simple Python-based automation tool that uses Selenium to:
 
-⚠️ Disclaimer
-This project is for educational purposes only. Automating interactions on LinkedIn may violate their Terms of Service. Use responsibly, and avoid scraping sensitive information.
+- Log into LinkedIn and search for profiles based on specified keywords, then visit profiles automatically up to a specified number of pages.
+
+It helps developers explore browser automation and Selenium scripting while adhering to ethical guidelines and LinkedIn's [Terms of Service](https://www.linkedin.com/legal/user-agreement).
+
+---
+
+## ⚠️ Disclaimer
+
+This project is for **educational purposes only**. Automating interactions on LinkedIn may violate their Terms of Service. Use responsibly, and avoid scraping sensitive information.  
 By using this tool, you take full responsibility for complying with LinkedIn's policies.
 
-🛠️ Features
-Automated Login: The program checks if you're already logged in, skipping redundant logins.
-Profile Search and Visit: Automatically searches for profiles using a keyword and visits them.
-Error Handling: Gracefully handles slow-loading pages and unexpected issues.
-Dependency Installation: Automatically installs missing Python libraries.
-Customizable: Easily edit keywords, page limits, and behavior. (A GUI is planned for future versions.)
-🖥️ How to Use
-Prerequisites
-Python 3.7 or higher is required.
-Install Google Chrome (latest version) and ensure chromedriver is available.
-Installation
-Clone the repository:
+---
 
-'bash
-Copy code
+## 🛠️ Features
+
+- **Automated Login:** The program checks if you're already logged in, skipping redundant logins.
+- **Profile Search and Visit:** Automatically searches for profiles using a keyword and visits them.
+- **Error Handling:** Gracefully handles slow-loading pages and unexpected issues.
+- **Dependency Installation:** Automatically installs missing Python libraries.
+- **Customizable:** Easily edit keywords, page limits, and behavior. *(A GUI is planned for future versions.)*
+
+---
+
+## 🖥️ How to Use
+
+### Prerequisites
+1. **Python 3.7 or higher** is required.
+2. Install **Google Chrome** (latest version) and ensure `chromedriver` is available.
+
+### Installation
+
+Clone the repository:
+```bash
 git clone https://github.com/hobb7t/Linvis.git
-cd Linvis'
+cd Linvis
 
 Run the program:
-
-bash
-Copy code
+```bash
 python3 main.py
+
+
 The script will:
 
 Check your Python version.
