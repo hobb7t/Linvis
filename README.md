@@ -23,8 +23,6 @@ Installation
 
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/hobb7t/Linvis.git
 cd Linvis
 
