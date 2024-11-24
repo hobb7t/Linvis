@@ -37,11 +37,12 @@ Clone the repository:
 ```bash
 git clone https://github.com/hobb7t/Linvis.git
 cd Linvis
+```
 
 Run the program:
 ```bash
 python3 main.py
-
+```
 
 The script will:
 
@@ -57,14 +58,14 @@ We welcome contributions to improve this project! Here's how you can get started
 Click the "Fork" button at the top right of this repository.
 
 2. Clone Your Fork Locally
-bash
-Copy code
+```bash
 git clone https://github.com/yourusername/Linvis.git
 cd Linvis
+```
 3. Create a New Branch
-bash
-Copy code
+```bash
 git checkout -b feature-your-feature-name
+```
 4. Make Your Changes
 Edit the code to fix bugs, add features, or improve documentation.
 
@@ -72,11 +73,11 @@ Edit the code to fix bugs, add features, or improve documentation.
 Test your changes to ensure the program runs without issues.
 
 6. Commit and Push
-bash
-Copy code
+```bash
 git add .
 git commit -m "Add your message here"
 git push origin feature-your-feature-name
+```
 7. Open a Pull Request
 Go to the original repository and open a pull request with a detailed explanation of your changes.
 
